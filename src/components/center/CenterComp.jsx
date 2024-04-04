@@ -1,10 +1,14 @@
-import { Center, Box } from '@mantine/core';
+import { Center, Box,Text} from '@mantine/core';
+import { theme } from '../../config/mantine.config';
 
 const CenterComp = () => {
   
     return (
-        <Center maw={400} h={100} bg="var(--mantine-color-gray-light)">
-      <Box bg="var(--mantine-color-blue-light)">All elements inside Center are centered</Box>
+        <Center  h={200} bg="cyan">
+      <Box >
+     <Text size='xl'> All elements inside Center are centered</Text> 
+    
+      </Box>
     </Center>
       );
   

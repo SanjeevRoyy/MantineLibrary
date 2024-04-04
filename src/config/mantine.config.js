@@ -7,7 +7,7 @@ export const theme = {
     md: '16px',
     lg: '18px',
     xl: '40px',
-    ab: '20px'
+    
   },
   lineHeight: {
     xs: '1.2',
@@ -20,7 +20,7 @@ export const theme = {
     // Add your color
     'deep-blue': ['#E9EDFC', '#C1CCF6', '#99ABF0' /* ... */],
     // or replace default theme color
-    blue: ['#E9EDFC', '#C1CCF6', '#99ABF0' /* ... */],
+    // blue: ['#E9EDFC', '#C1CCF6', '#99ABF0' /* ... */],
     'red': [
       '#FFEBEE', // 0
       '#FFCDD2', // 1

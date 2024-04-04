@@ -5,7 +5,7 @@ import { theme } from '../../config/mantine.config'
 const Ratio = () => {
   return (
     <div style={{ padding: '20px' }}>
-    <Text size="xl" weight={500} style={{ marginBottom: '20px', color: theme.colors['red'][9] }}>
+    <Text  size="xl" weight={500} style={{ marginBottom: '20px'}}>
       Welcome to Mantine Theme
     </Text>
     <Text size="md" style={{ marginBottom: '20px' }}>
