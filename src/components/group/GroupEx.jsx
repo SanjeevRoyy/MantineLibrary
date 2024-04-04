@@ -3,7 +3,7 @@ import React from 'react'
 
 const GroupEx = () => {
   return (
-<Group grow  >
+<Group mb={20} mt={70} bg={'red'} grow  >
 <Button size='xl'>First</Button>
 <Button size='xl'>Second</Button>
 <Button size='xl'>Third</Button>

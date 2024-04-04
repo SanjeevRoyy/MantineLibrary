@@ -4,8 +4,10 @@ import Ratio from './components/aspectratio/Ratio';
 import CenterComp from './components/center/CenterComp';
 import ContainerEx from './components/container/ContainerEx';
 import FlexEx from './components/flex/FlexEx';
-import GridEx from './config/grid/GridEx';
+import GridEx from './components/grid/GridEx';
 import GroupEx from './components/group/GroupEx';
+import SimpleGridEx from './components/simplegrid/SimpleGridEx';
+
 
 
 
@@ -20,9 +22,11 @@ function App() {
       <Ratio />
       <CenterComp />
       <ContainerEx />
-      <FlexEx />
-      <GridEx />
+      <FlexEx />    
+      <GridEx/>
       <GroupEx/>
+      <SimpleGridEx/>
+   
     </>
 
 
