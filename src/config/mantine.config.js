@@ -56,12 +56,20 @@ export const theme = {
     lg: '24px',
     xl: '32px',
   },
+  gutter:{
+    xs: '4px',
+    sm: '8px',
+    md: '16px',
+    lg: '24px',
+    xl: '32px',
+  },
   margins: {
     xs: '4px',
     sm: '8px',
     md: '16px',
     lg: '24px',
     xl: '32px',
+
   },
   primaryColor: 'red',
   secondaryColor: "yellow",

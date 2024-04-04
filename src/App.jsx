@@ -5,6 +5,7 @@ import CenterComp from './components/center/CenterComp';
 import ContainerEx from './components/container/ContainerEx';
 import FlexEx from './components/flex/FlexEx';
 import GridEx from './config/grid/GridEx';
+import GroupEx from './components/group/GroupEx';
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <ContainerEx />
       <FlexEx />
       <GridEx />
+      <GroupEx/>
     </>
 
 
