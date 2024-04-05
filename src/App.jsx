@@ -9,6 +9,7 @@ import GroupEx from './components/layout/group/GroupEx';
 import SimpleGridEx from './components/layout/simplegrid/SimpleGridEx';
 import SpaceEx from './components/layout/space/SpaceEx';
 import StackEx from './components/layout/stack/StackEx';
+import CheckBoxEx from './components/inputs/checkbox/CheckBoxEx';
 
 
 
@@ -20,7 +21,7 @@ function App() {
 
   return (
     <>
-      <Demo />
+      {/* <Demo />
       <Ratio />
       <CenterComp />
       <ContainerEx />
@@ -29,7 +30,8 @@ function App() {
       <GroupEx/>
       <SimpleGridEx/>
       <SpaceEx/>
-      <StackEx/>
+      <StackEx/> */}
+      <CheckBoxEx/>
    
     </>
 
