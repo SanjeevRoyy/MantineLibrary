@@ -1,5 +1,4 @@
 import { Center, Box,Text} from '@mantine/core';
-import { theme } from '../../config/mantine.config';
 
 const CenterComp = () => {
   

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button,Text } from '@mantine/core'
-import { theme } from '../../config/mantine.config'
 
 const Ratio = () => {
   return (
