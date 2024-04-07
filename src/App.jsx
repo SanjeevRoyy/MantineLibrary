@@ -30,6 +30,9 @@ import Intersection from './components/mantinehooks/ui and dom/Intersection';
 import MediaQuery from './components/mantinehooks/ui and dom/MediaQuery';
 import Mouse from './components/mantinehooks/ui and dom/Mouse';
 import Move from './components/mantinehooks/ui and dom/Move';
+import ResizeObserver from './components/mantinehooks/ui and dom/ResizeObserver';
+import Scroll from './components/mantinehooks/ui and dom/Scroll';
+import ViewPortSize from './components/mantinehooks/ui and dom/ViewPortSize';
 
 
 
@@ -71,6 +74,9 @@ function App() {
       <MediaQuery />
       <Mouse />
       <Move />
+      <ResizeObserver/>
+      <Scroll/>
+      <ViewPortSize/>
     </>
 
 
