@@ -26,6 +26,7 @@ import FullScreen from './components/mantinehooks/ui and dom/FullScreen';
 import HotKeys from './components/mantinehooks/ui and dom/HotKeys';
 import Hover from './components/mantinehooks/ui and dom/Hover';
 import Viewport from './components/mantinehooks/ui and dom/Viewport';
+import Intersection from './components/mantinehooks/ui and dom/Intersection';
 
 
 
@@ -63,6 +64,7 @@ function App() {
   <HotKeys/>
   <Hover/>
   <Viewport/>
+  <Intersection/>
     </>
 
 
