@@ -33,6 +33,9 @@ import Move from './components/mantinehooks/ui and dom/Move';
 import ResizeObserver from './components/mantinehooks/ui and dom/ResizeObserver';
 import Scroll from './components/mantinehooks/ui and dom/Scroll';
 import ViewPortSize from './components/mantinehooks/ui and dom/ViewPortSize';
+import WindowEvent from './components/mantinehooks/ui and dom/WindowEvent';
+import WindowScroll from './components/mantinehooks/ui and dom/WindowScroll';
+import ElementSize from './components/mantinehooks/ui and dom/ElementSize';
 
 
 
@@ -77,6 +80,9 @@ function App() {
       <ResizeObserver/>
       <Scroll/>
       <ViewPortSize/>
+      <WindowEvent/>
+      <WindowScroll/>
+      <ElementSize/>
     </>
 
 
