@@ -36,6 +36,10 @@ import ViewPortSize from './components/mantinehooks/ui and dom/ViewPortSize';
 import WindowEvent from './components/mantinehooks/ui and dom/WindowEvent';
 import WindowScroll from './components/mantinehooks/ui and dom/WindowScroll';
 import ElementSize from './components/mantinehooks/ui and dom/ElementSize';
+import Counter from './components/mantinehooks/state management/Counter';
+import DebounceState from './components/mantinehooks/state management/DebounceState';
+import InputState from './components/mantinehooks/state management/InputState';
+import ListState from './components/mantinehooks/state management/ListState';
 
 
 
@@ -83,6 +87,10 @@ function App() {
       <WindowEvent/>
       <WindowScroll/>
       <ElementSize/>
+      <Counter/>
+      <DebounceState/>
+      <InputState/>
+      <ListState/>
     </>
 
 
