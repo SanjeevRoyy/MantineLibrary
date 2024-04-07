@@ -18,6 +18,7 @@ import ProductsGrid from './components/liquorshop/ProductsGrid';
 import SectionCategory from './components/liquorshop/SectionCategory';
 import CategoryR from './components/liquorshop/CategoryR';
 import UseClickOutside from './components/mantinehooks/ui and dom/UseClickOutside';
+import ColorScheme from './components/mantinehooks/ui and dom/ColorScheme';
 
 
 
@@ -47,6 +48,7 @@ function App() {
   <CategoryR/> */}
   <Navbar/>
   <UseClickOutside/>
+  <ColorScheme/>
     </>
 
 
