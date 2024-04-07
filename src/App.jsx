@@ -22,6 +22,7 @@ import ColorScheme from './components/mantinehooks/ui and dom/ColorScheme';
 import EventListner from './components/mantinehooks/ui and dom/EventListner';
 import FocusReturn from './components/mantinehooks/ui and dom/FocusReturn';
 import FocusWithIn from './components/mantinehooks/ui and dom/FocusWithIn';
+import FullScreen from './components/mantinehooks/ui and dom/FullScreen';
 
 
 
@@ -55,6 +56,7 @@ function App() {
   <EventListner/>
   <FocusReturn/>
   <FocusWithIn/>
+  <FullScreen/>
     </>
 
 
