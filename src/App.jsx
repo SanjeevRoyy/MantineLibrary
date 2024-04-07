@@ -23,6 +23,7 @@ import EventListner from './components/mantinehooks/ui and dom/EventListner';
 import FocusReturn from './components/mantinehooks/ui and dom/FocusReturn';
 import FocusWithIn from './components/mantinehooks/ui and dom/FocusWithIn';
 import FullScreen from './components/mantinehooks/ui and dom/FullScreen';
+import HotKeys from './components/mantinehooks/ui and dom/HotKeys';
 
 
 
@@ -57,6 +58,7 @@ function App() {
   <FocusReturn/>
   <FocusWithIn/>
   <FullScreen/>
+  <HotKeys/>
     </>
 
 

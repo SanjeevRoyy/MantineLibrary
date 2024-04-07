@@ -4,6 +4,7 @@ import App from './App.jsx'
 import { MantineProvider } from '@mantine/core'
 import '@mantine/core/styles.css'
 import { theme } from './config/mantine.config.js'
+// import NotificationsProvider from '@mantine/notifications';
 // import { MantineProvider } from '@mantine/core'
 
 
