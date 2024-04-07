@@ -27,6 +27,9 @@ import HotKeys from './components/mantinehooks/ui and dom/HotKeys';
 import Hover from './components/mantinehooks/ui and dom/Hover';
 import Viewport from './components/mantinehooks/ui and dom/Viewport';
 import Intersection from './components/mantinehooks/ui and dom/Intersection';
+import MediaQuery from './components/mantinehooks/ui and dom/MediaQuery';
+import Mouse from './components/mantinehooks/ui and dom/Mouse';
+import Move from './components/mantinehooks/ui and dom/Move';
 
 
 
@@ -50,21 +53,24 @@ function App() {
       <StackEx/> */}
       {/* <CheckBoxEx/>
       <ChipEx/> */}
-    {/* <SectionE/> */}
-    {/* <ProductsGrid/>
+      {/* <SectionE/> */}
+      {/* <ProductsGrid/>
     <SectionCategory/>
   <CategoryR/> */}
-  <Navbar/>
-  <UseClickOutside/>
-  <ColorScheme/>
-  <EventListner/>
-  <FocusReturn/>
-  <FocusWithIn/>
-  <FullScreen/>
-  <HotKeys/>
-  <Hover/>
-  <Viewport/>
-  <Intersection/>
+      <Navbar />
+      <UseClickOutside />
+      <ColorScheme />
+      <EventListner />
+      <FocusReturn />
+      <FocusWithIn />
+      <FullScreen />
+      <HotKeys />
+      <Hover />
+      <Viewport />
+      <Intersection />
+      <MediaQuery />
+      <Mouse />
+      <Move />
     </>
 
 

@@ -28,6 +28,8 @@ const Intersection = () => {
             {entry?.isIntersecting ? 'Fully visible' : 'Obscured'}
           </Text>
         </Paper>
+       
+      
       </Box>
     </Paper>
   );
