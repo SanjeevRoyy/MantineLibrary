@@ -71,7 +71,7 @@ export const theme = {
     xl: '32px',
 
   },
-  primaryColor: 'red',
+  primaryColor: 'blue',
   secondaryColor: "yellow",
 
 };

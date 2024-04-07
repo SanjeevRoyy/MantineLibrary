@@ -1,0 +1,10 @@
+.Category{
+    display: flex;
+    gap: 30px;
+    /* justify-content: center; */
+    margin-left: 20px;
+   
+}
+option{
+    outline: 2px solid red !important;
+}
