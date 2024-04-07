@@ -19,6 +19,9 @@ import SectionCategory from './components/liquorshop/SectionCategory';
 import CategoryR from './components/liquorshop/CategoryR';
 import UseClickOutside from './components/mantinehooks/ui and dom/UseClickOutside';
 import ColorScheme from './components/mantinehooks/ui and dom/ColorScheme';
+import EventListner from './components/mantinehooks/ui and dom/EventListner';
+import FocusReturn from './components/mantinehooks/ui and dom/FocusReturn';
+import FocusWithIn from './components/mantinehooks/ui and dom/FocusWithIn';
 
 
 
@@ -49,6 +52,9 @@ function App() {
   <Navbar/>
   <UseClickOutside/>
   <ColorScheme/>
+  <EventListner/>
+  <FocusReturn/>
+  <FocusWithIn/>
     </>
 
 
