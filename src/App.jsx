@@ -40,6 +40,10 @@ import Counter from './components/mantinehooks/state management/Counter';
 import DebounceState from './components/mantinehooks/state management/DebounceState';
 import InputState from './components/mantinehooks/state management/InputState';
 import ListState from './components/mantinehooks/state management/ListState';
+import LocalStorage from './components/mantinehooks/state management/LocalStorage';
+// import Pagination from './components/mantinehooks/state management/PaginationEx';
+import PaginationEx from './components/mantinehooks/state management/PaginationEx';
+import UsePrevious from './components/mantinehooks/state management/UsePrevious';
 
 
 
@@ -91,6 +95,9 @@ function App() {
       <DebounceState/>
       <InputState/>
       <ListState/>
+      <PaginationEx/>
+      {/* <LocalStorage/>  */}
+      <UsePrevious/>
     </>
 
 
