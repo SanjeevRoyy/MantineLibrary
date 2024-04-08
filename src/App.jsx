@@ -11,7 +11,7 @@ import React from 'react';
 // import StackEx from './components/layout/stack/StackEx';
 // import CheckBoxEx from './components/inputs/checkbox/CheckBoxEx';
 // import ChipEx from './components/inputs/chip/ChipEx';
-// import SectionE from './components/SectionE';
+// import SectionE from './components/liquorshop/SectionE';
 import '/app.css';
 import Navbar from './components/liquorshop/Nabvar';
 import ProductsGrid from './components/liquorshop/ProductsGrid';
@@ -46,6 +46,9 @@ import PaginationEx from './components/mantinehooks/state management/PaginationE
 import UsePrevious from './components/mantinehooks/state management/UsePrevious';
 import StateHistory from './components/mantinehooks/state management/StateHistory';
 import Toggle from './components/mantinehooks/state management/Toggle';
+import UseControlled from './components/mantinehooks/state management/UseControlled';
+import ValidateState from './components/mantinehooks/state management/ValidateState';
+import Clipboard from './components/mantinehooks/utilities/Clipboard';
 
 
 
@@ -57,7 +60,7 @@ function App() {
 
   return (
     <>
-      {/* <Demo />
+       {/* <Demo />
       <Ratio />
       <CenterComp />
       <ContainerEx />
@@ -66,13 +69,13 @@ function App() {
       <GroupEx/>
       <SimpleGridEx/>
       <SpaceEx/>
-      <StackEx/> */}
-      {/* <CheckBoxEx/>
-      <ChipEx/> */}
-      {/* <SectionE/> */}
-      {/* <ProductsGrid/>
+      <StackEx/>       
+      <CheckBoxEx/>
+      <ChipEx/> 
+       <SectionE/>
+     <ProductsGrid/>
     <SectionCategory/>
-  <CategoryR/> */}
+  <CategoryR/>  */}
       <Navbar />
       <UseClickOutside />
       <ColorScheme />
@@ -102,6 +105,9 @@ function App() {
       <UsePrevious/>
       <StateHistory/>
       <Toggle/>
+      <UseControlled/>
+      <ValidateState/>
+     <Clipboard/>
     </>
 
 
