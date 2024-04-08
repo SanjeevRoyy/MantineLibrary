@@ -44,6 +44,8 @@ import LocalStorage from './components/mantinehooks/state management/LocalStorag
 // import Pagination from './components/mantinehooks/state management/PaginationEx';
 import PaginationEx from './components/mantinehooks/state management/PaginationEx';
 import UsePrevious from './components/mantinehooks/state management/UsePrevious';
+import StateHistory from './components/mantinehooks/state management/StateHistory';
+import Toggle from './components/mantinehooks/state management/Toggle';
 
 
 
@@ -98,6 +100,8 @@ function App() {
       <PaginationEx/>
       {/* <LocalStorage/>  */}
       <UsePrevious/>
+      <StateHistory/>
+      <Toggle/>
     </>
 
 
